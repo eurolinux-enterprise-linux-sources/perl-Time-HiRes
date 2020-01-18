@@ -1,6 +1,7 @@
 Name:           perl-Time-HiRes
+Epoch:          4
 Version:        1.9725
-Release:        272%{?dist}
+Release:        3%{?dist}
 Summary:        High resolution alarm, sleep, gettimeofday, interval timers
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -53,6 +54,15 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4:1.9725-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4:1.9725-2
+- Mass rebuild 2013-12-27
+
+* Wed Nov 13 2013 Petr Pisar <ppisar@redhat.com> - 4:1.9725-1
+- Increase epoch to 4 to allow upgrade from previous distribution (bug #1029470)
+
 * Mon Apr 29 2013 Petr Pisar <ppisar@redhat.com> - 1.9725-272
 - Increase release number to superseed perl.spec's sub-package
 
